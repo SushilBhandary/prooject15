@@ -9,7 +9,7 @@ The website focuses on implementing the basics of HTML and CSS to create this We
 - ::before
 - ::after
 
-## [Live Preview](https://chimerical-piroshki-714e49.netlify.app/)
+## [Live Preview](https://cute-entremet-faf590.netlify.app/)
 
 ### SnapShot of the Webpage
 
