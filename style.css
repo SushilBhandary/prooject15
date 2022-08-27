@@ -360,3 +360,71 @@ footer>div>img{
     position: relative;
     right: 370px;
 }
+
+@media screen and (max-width : 950px) {
+    .cards{
+        flex-direction: column;
+        width: 80%;
+        margin: 40px auto; 
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .experience{
+        flex-direction: column;
+        width: 80%;
+        margin: 70px auto;
+    }
+    .words{
+        flex-direction: column;
+        width: 80%;
+        margin: 40px auto; 
+        text-align: center;
+    }
+    .words>button{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .samples{
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        margin: 40px auto; 
+    }
+    .contact{
+        text-align: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 40px auto; 
+    }
+    .contact>button{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width : 810px) {
+    .startpage{
+        flex-direction: column;
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .startpage>div{
+        width: 80%;
+        margin: 40px auto;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>img{
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width : 700px) {
+    nav>ul{
+        flex-direction: column;
+    }
+
+}
